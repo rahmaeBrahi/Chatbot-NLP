@@ -35,3 +35,30 @@ An intelligent chatbot system powered by BERT NLP model with text interaction ca
    
    git clone https://github.com/rahmaeBrahi/Chatbot-NLP.git
    cd Chatbot-NLP
+2. **Install dependencies**
+   pip install -r requirements.txt
+
+3. **Initialize the model**
+python main.py --init-model
+
+4. **Run the backend**
+   python backend.py
+5. **Configuration**
+   Edit config.json to customize settings
+
+6. **Advanced Options**
+   Model Switching: Replace model name in main.py:
+   MODEL_NAME = "deepset/bert-base-cased-squad2" 
+Change to roberta-base or other HuggingFace models if needed.
+
+Database Integration: Pre-configured for PostgreSQL/MongoDB
+
+7.👩‍💻 **Development Team**
+Rahma Ebrahim
+
+Poussy Ayman
+
+jehad mahmoud 
+
+
+   
